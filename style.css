@@ -1,15 +1,37 @@
-<style>
-  div {
-    font-size: 20px;
+@font-face {
+  font-family: "Raleway";
+  src: url("assets/fonts/Raleway-Regular.ttf");
   }
-
-  p {
-    font-size: 10px;
+body {
+  font-family: "Raleway";
+  min-height: 100vh;
+  margin: 0; padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+* {
+  box-sizing: border-box;
+}
+.body {
+  border: 1px solid grey;
   }
-</style>
-
-<div>
-  Text
-
-  <p> Text in </p>
-</div>
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  }
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  }
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+}
+.section-title {
+  font-size: 30px;
+  font-weight: 300;
+  color: brown;
+}
