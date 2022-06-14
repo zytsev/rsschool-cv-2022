@@ -1,13 +1,7 @@
 @font-face {
   font-family: "Raleway";
-  src: url("assets/fonts/Raleway-ExtraLight.ttf");
-  font-weight: 100;
-}
-@font-face {
-  font-family: "Raleway";
   src: url("assets/fonts/Raleway-Regular.ttf");
-  font-weight: 300;
-}
+  }
 body {
   font-family: "Raleway";
   min-height: 100vh;
@@ -19,19 +13,13 @@ body {
 * {
   box-sizing: border-box;
 }
-.header {
+.body {
   border: 1px solid grey;
-}
-.main {
-  border: 1px solid grey;
-}
-.footer {
-  border: 1px solid grey;
-}
+  }
 .container {
   max-width: 1440px;
   margin: 0 auto;
-}
+  }
 .nav-list {
   list-style: none;
   display: flex;
@@ -41,4 +29,9 @@ body {
   padding: 0 20px;
   line-height: 50px;
   text-decoration: none;
+}
+.section-title {
+  font-size: 30px;
+  font-weight: 300;
+  color: brown;
 }
