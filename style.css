@@ -1,15 +1,16 @@
-<style>
-  div {
-    font-size: 20px;
-  }
-
-  p {
-    font-size: 10px;
-  }
-</style>
-
-<div>
-  Text
-
-  <p> Text in </p>
-</div>
+@font-face {
+  font-family: "Raleway";
+  src: url("assets/fonts/Raleway-ExtraLight.ttf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("assets/fonts/Raleway-Regular.ttf");
+  font-weight: 300;
+}
+body {
+  font-family: "Raleway";
+}
+* {
+  box-sizing: border-box;
+}
